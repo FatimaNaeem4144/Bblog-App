@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>personal blogging page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- header -->
+    <header>
+        <h3 id="navbar">Personal Blogging App</h3>
+        <a href="login.html"><button class="button active" type="submit">Logout</button></a>
+    </header>
+    <!-- #titleSignUp -->
+    <div id="titleSignUp">
+        <h1>Profile</h1>
+        <a href="index.html"><button class="button active" type="submit">All Blogs</button></a>
+    </div>
+    <!-- #form -->
+    <div id="form" style="height: 42rem; margin-top: 3.3rem;">
+        <img src="./WhatsApp Image 2023-09-09 at 3.14.25 PM (1).jpeg" style="width: 17rem; height: 17rem; border-radius: 50%;">
+        <input type="password" id="password" placeholder="Old Password" name="Password" minlength="8" required
+            pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d).+$">
+        <input type="password" id="repeatPassword" placeholder="New Password" name="Repeat Password" minlength="8"
+            required pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d).+$"><br>
+            <input type="password" id="repeatPassword" placeholder="New Password" name="Update Password" minlength="8"
+            required pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d).+$"><br>
+        <button class="button" type="submit" id="signup" style="width: 18rem; margin-top: 2rem;">Update Password</button>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+</html>

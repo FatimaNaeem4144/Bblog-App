@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="spinner-container" id="spiner">
+        <div class="spinner"></div>
+    </div>
+    <div id="navbar">
+        <h2>Personal Blog App</h2>
+        <a href="./signup.html">Logout</a>
+    </div>
+    
+    <div class="signup-heading">
+        <h2>Dashboard</h2>
+    </div>
+    
+<div id="postBlog">
+    <input type="text" id="blog-title" placeholder="Write Blog Title..." minlength="5" maxlength="50"
+    required>
+    <input type="text" id="blog-content" placeholder="Write Text Here..." minlength="10" maxlength="3000"
+    required>
+    <!-- <input type="file" class="form-control" id="image" accept="images/*"> -->
+    
+    <button id="publish-btn" > Publish Blog</button>
+</div>
+<h2 style="padding: 20px 80px;">My Blogs</h2>
+<div id="blog-posts">
+        <div class="publish-content blog">
+            <div id="published-blog"></div>
+        
+    </div>
+<!-- <script type="module" src="./JavaScript/dashboard.js"></script> -->
+<script type="module" src="./JavaScript/app.js"></script>
+</body>
+</html>
